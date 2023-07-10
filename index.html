@@ -3,11 +3,42 @@
 <head>
   <title>My Resume</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+
+    body {
+      font-family: 'Barlow', sans-serif;
+    }
+    
+    h1, h2, h3 {
+      font-family: 'Barlow', sans-serif;
+    }
+    
     header {
-      background-color: #333;
+      position: relative;
+      background-image: url('https://raw.githubusercontent.com/shrutadu/shrutadu.github.io/049b50880a8295f01de5d50b2e7f8a64b618fa0a/instc%202023-07-10%20155718.534.jpg');
+      background-size: cover;
+      background-position: center;
       color: #fff;
-      padding: 20px;
+      padding: 100px 0;
       text-align: center;
+    }
+    
+    header .profile-photo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center;
+      margin: 0 auto 20px;
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
     }
 
     nav ul {
@@ -52,7 +83,9 @@
 </head>
 <body>
   <header>
-    <h1>John Smith</h1>
+    <img src="https://raw.githubusercontent.com/shrutadu/shrutadu.github.io/049b50880a8295f01de5d50b2e7f8a64b618fa0a/instc%202023-07-10%20155600.703.jpg" alt="Profile Photo" class="profile-photo">
+    <h1>Shruti Adusumilli</h1>
+    <p>Front-end Developer</p>
     <nav>
       <ul>
         <li><a href="#about">About</a></li>
@@ -80,20 +113,20 @@
     <section id="education">
       <h2>Education</h2>
       <div class="education-item">
-        <h3>University of XYZ</h3>
-        <p>Degree: Bachelor of Science, Computer Science</p>
-        <p>Graduation Year: 20XX</p>
+        <h3>University of California, Davis</h3>
+        <p>Bachelor of Science, Computer Science</p>
+        <p>Bachelor of Arts, Political Science</p>
+        <p>Graduation Year: 2023</p>
       </div>
     </section>
   </main>
 
   <footer>
-    <p>Email: johnsmith@example.com</p>
+    <p>Email: sadusumilli@ucdavis.edu</p>
     <ul>
-      <li><a href="https://linkedin.com/in/johnsmith">LinkedIn</a></li>
-      <li><a href="https://twitter.com/johnsmith">Twitter</a></li>
+      <li><a href="https://www.linkedin.com/in/shruti-adusumilli/">LinkedIn</a></li>
+      <li><a href="https://twitter.com/shrutadu">Twitter</a></li>
     </ul>
   </footer>
 </body>
 </html>
-
