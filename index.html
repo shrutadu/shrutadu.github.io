@@ -2,17 +2,98 @@
 <html>
 <head>
   <title>My Resume</title>
+  <style>
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    .experience-item,
+    .education-item {
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-  <h1>Shruti Adusumilli</h1>
-  <p>Email: sadusumilli@ucdavis.edu</p>
-  <h2>Education</h2>
-  <ul>
-    <li>Bachelor of Science, Computer Science</li>
-    <li>Bachelor of Arts, Political Science</li>
-    <li>University of California, Davis</li>
-    <li>Graduation Year: 2023</li>
-  </ul>
-  <!-- Add more resume sections and details here -->
+  <header>
+    <h1>John Smith</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae est sed risus venenatis suscipit at sed nisl.</p>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="experience-item">
+        <h3>Company A</h3>
+        <p>Position: XYZ</p>
+        <p>Date: 20XX - Present</p>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="education-item">
+        <h3>University of XYZ</h3>
+        <p>Degree: Bachelor of Science, Computer Science</p>
+        <p>Graduation Year: 20XX</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Email: johnsmith@example.com</p>
+    <ul>
+      <li><a href="https://linkedin.com/in/johnsmith">LinkedIn</a></li>
+      <li><a href="https://twitter.com/johnsmith">Twitter</a></li>
+    </ul>
+  </footer>
 </body>
 </html>
+
